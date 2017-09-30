@@ -16,9 +16,9 @@ We use rebasing in order to avoid merge commits.
 
 #### Hooks
 
-  We have pre-commit/push hooks in the `hooks` directory to help enforce our linting rules and tests. Developers are highly encouraged to use them.
+We have pre-commit/push hooks in the `hooks` directory to help enforce our linting rules and tests. Developers are highly encouraged to use them.
 
-### Configure your dev envirnoment
+### Configure your dev environment
 
 We use a shell script to run the app so we can define needed environment variables. By convention we call it `start.sh`. This file is already in our `.gitignore`.
 
@@ -36,8 +36,8 @@ Make sure to update the script with the appropriate secrets and other necessary 
 *watch* - `npm run watch`
 *build* - `npm run build`
 
-### running the app
+### Running the app
 
-Instead of running the npm script that starts the server make sure to use your `start.sh` with the appropriate keys so you can log in.
+Instead of running the NPM script that starts the server, make sure to use your `start.sh` with the appropriate keys so you can log in.
 
 `./start.sh`
